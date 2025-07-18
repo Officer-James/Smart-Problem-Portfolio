@@ -16,7 +16,7 @@ def classify(img_path):
     
     print(text)
     
-    client = OpenAI(api_key="sk-6f6f21ed49644ad5b5f5aec4c3734a96", base_url="https://api.deepseek.com")
+    client = OpenAI(api_key="SOME KIND OF API KEY BUT I CANNOT LEAK IT", base_url="https://api.deepseek.com")
 
     response_subject = client.chat.completions.create(
         model="deepseek-reasoner",
